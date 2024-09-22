@@ -20,7 +20,7 @@ def init_data():
 
 def run():
     """
-    Retrive Data from an API and send it to a Kafka Topic
+    Retrieve Data from an API and send it to a Kafka Topic
     """
 
     app = get_app()

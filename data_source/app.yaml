@@ -1,0 +1,11 @@
+name: data_producer
+language: python
+variables:
+  - name: output
+    inputType: OutputTopic
+    description: This is the output topic to write data to
+    defaultValue: data_topic
+    required: true
+dockerfile: Dockerfile
+runEntryPoint: main.py
+defaultFile: main.py
